@@ -1,0 +1,169 @@
+{
+  "id": "5e889aef-a235-4290-bf00-f2c3c9bf6491",
+  "version": "2.0",
+  "name": "amazon-selenium-ide",
+  "url": "https://www.imdb.com/",
+  "tests": [{
+    "id": "0ff0c6c5-ecf7-4129-bb04-78709f7ebea5",
+    "name": "wandavision",
+    "commands": [{
+      "id": "8f8e4825-d536-4c42-a3d0-2c03f9ccd3ed",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.imdb.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6178625b-630e-484c-94d5-dc48fd5d03a9",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1042x1021",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "3eb32b1c-6640-47e6-9837-e539d64cc269",
+      "comment": "",
+      "command": "click",
+      "target": "id=suggestion-search-container",
+      "targets": [
+        ["id=suggestion-search-container", "id"],
+        ["css=#suggestion-search-container", "css:finder"],
+        ["xpath=//div[@id='suggestion-search-container']", "xpath:attributes"],
+        ["xpath=//nav[@id='imdbHeader']/div[2]/div", "xpath:idRelative"],
+        ["xpath=//nav/div[2]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f43a4bbe-adcc-40b8-8c45-ecff394ccffb",
+      "comment": "",
+      "command": "click",
+      "target": "id=suggestion-search",
+      "targets": [
+        ["id=suggestion-search", "id"],
+        ["name=q", "name"],
+        ["css=#suggestion-search", "css:finder"],
+        ["xpath=//input[@id='suggestion-search']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0238de1f-d888-4750-be87-3353f489304a",
+      "comment": "",
+      "command": "type",
+      "target": "id=suggestion-search",
+      "targets": [
+        ["id=suggestion-search", "id"],
+        ["name=q", "name"],
+        ["css=#suggestion-search", "css:finder"],
+        ["xpath=//input[@id='suggestion-search']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "wandavision"
+    }, {
+      "id": "00bd639d-bbbe-4aad-88ef-53bc80cfd074",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=suggestion-search",
+      "targets": [
+        ["id=suggestion-search", "id"],
+        ["name=q", "name"],
+        ["css=#suggestion-search", "css:finder"],
+        ["xpath=//input[@id='suggestion-search']", "xpath:attributes"],
+        ["xpath=//form[@id='nav-search-form']/div[2]/div/input", "xpath:idRelative"],
+        ["xpath=//form/div[2]/div/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "be4abe17-fe78-40fc-b214-2f700630df88",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,114)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e18e2dc4-af43-45da-a09d-a4725305b7f1",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=WandaVision",
+      "targets": [
+        ["linkText=WandaVision", "linkText"],
+        ["css=.findSection:nth-child(3) .findResult:nth-child(1) > .result_text > a", "css:finder"],
+        ["xpath=//a[contains(text(),'WandaVision')]", "xpath:link"],
+        ["xpath=//div[@id='main']/div/div[2]/table/tbody/tr/td[2]/a", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/title/tt9140560/?ref_=fn_al_tt_1')])[2]", "xpath:href"],
+        ["xpath=//td[2]/a", "xpath:position"],
+        ["xpath=//a[contains(.,'WandaVision')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "638a9602-f368-432d-a31d-290b6f34be3d",
+      "comment": "",
+      "command": "click",
+      "target": "css=strong > span",
+      "targets": [
+        ["css=strong > span", "css:finder"],
+        ["xpath=//div[@id='title-overview-widget']/div/div[2]/div/div/div/div/strong/span", "xpath:idRelative"],
+        ["xpath=//strong/span", "xpath:position"],
+        ["xpath=//span[contains(.,'7.8')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "be2cbdc2-ddd1-4714-b9e9-3982e866e598",
+      "comment": "",
+      "command": "click",
+      "target": "css=strong > span",
+      "targets": [
+        ["css=strong > span", "css:finder"],
+        ["xpath=//div[@id='title-overview-widget']/div/div[2]/div/div/div/div/strong/span", "xpath:idRelative"],
+        ["xpath=//strong/span", "xpath:position"],
+        ["xpath=//span[contains(.,'7.8')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "56449e3f-3846-4109-b6a1-4f571adac6f4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ratingValue",
+      "targets": [
+        ["css=.ratingValue", "css:finder"],
+        ["xpath=//div[@id='title-overview-widget']/div/div[2]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[5]/div/div[2]/div/div/div[2]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30010af0-68a1-4575-bdff-b7ab5a1750da",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=TRIVIA",
+      "targets": [
+        ["linkText=TRIVIA", "linkText"],
+        ["css=.quicklink:nth-child(3)", "css:finder"],
+        ["xpath=//a[contains(text(),'TRIVIA')]", "xpath:link"],
+        ["xpath=//div[@id='quicklinksMainSection']/a[2]", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/title/tt9140560/trivia?ref_=tt_ql_2')]", "xpath:href"],
+        ["xpath=//div/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'TRIVIA')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "da743a17-afdc-449e-a8f1-bbb7f7564f7d",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,56)",
+      "targets": [],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "2e85a31f-e800-4c27-b727-a7406597e532",
+    "name": "DefaultSuite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["0ff0c6c5-ecf7-4129-bb04-78709f7ebea5"]
+  }],
+  "urls": ["https://www.amazon.es/", "https://www.imdb.com/"],
+  "plugins": []
+}
